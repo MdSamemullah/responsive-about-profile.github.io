@@ -2,4 +2,4 @@
 
 **I'm just create a landing page 🤓**
 
-it's show my qualification and my skills👨🏻‍💻
+it's show my qualification, skills👨🏻‍💻, and all my social media link. 
