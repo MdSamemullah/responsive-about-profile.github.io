@@ -1,0 +1,152 @@
+*{
+    /* background-color: powderblue; */
+}
+body{
+    margin: 0;
+
+}
+#navBar{
+    width: 100%;
+    background-color: #252525;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 2px #252525;
+}
+.menu{
+    background-color: #252525;
+}
+.logo img{
+    display: flex;
+    align-items: center;
+}
+.menuList{
+    background-color: #252525;
+    color: white;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    text-transform: capitalize;
+    display: flex;
+    list-style: none;
+    gap: 5rem;
+}
+.menuitems{
+    background-color: #252525;
+    cursor: pointer;
+}
+.menuitems:hover{
+    color: #dda0dd;
+}
+.main{
+    margin: 25px 60px;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.mainContent{
+    display: flex;
+    flex-direction: row ;
+}
+.contentImg img{
+    width: 275px;
+    border: 1px double #252525;
+    border-radius: 45px ;
+    box-shadow: 1px 1px 5px;
+}
+.discription{
+    padding: 55px;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.discription p{
+    text-align: center;
+}
+.discription button{
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 25px;
+    outline: none;
+    border-color: white;
+    box-shadow: 2px 1px 5px #dda0dd;
+    cursor: pointer;
+    padding: 10px;
+    margin: 20px 85px;
+    
+}
+button:hover{
+    box-shadow: 2px 1px 5px #ff68ff;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+span a{
+    background-color: #e9acd7;
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 45px;
+    margin: 15px 75px;
+}
+span a:hover{
+    color: rgb(57, 57, 221);
+    background-color: #252525;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
+    position: relative;
+    zoom: 1.20;
+}
+@media screen and (max-width:700px) {
+    body{
+        width: 100%;
+        background-color: white;
+    }
+    .navBar{
+        padding: 20px;
+    }
+    .logo{
+        width: 35%;
+    }
+    .menu{
+        width: 75%;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        margin: 10px 20px;
+        padding: 25px;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        box-shadow: 1px 1px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .contentImg img{
+        margin: 50% 5%;
+        border: 1px double #252525;
+        width: 250px;
+        height: 280px;
+        border-radius: 25px ;
+        display: flex;
+        align-items: center;
+    }
+    .discription p{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .discription button{
+        margin: 30px 25px;
+    }
+
+}
